@@ -12,15 +12,10 @@ cd your-repo-name
 npm install
 Install JSON Server globally:
 
-bash
-Copy
-Edit
 npm install -g json-server
 Set up JSON Server to simulate an API:
 Create a db.json file with mock data:
-json
-Copy
-Edit
+
 {
   "items": [
     { "id": 1, "name": "Item 1" },
@@ -28,9 +23,7 @@ Edit
   ]
 }
 Start JSON Server:
-bash
-Copy
-Edit
+
 json-server --watch db.json --port 5000
 Usage
 Context API and Reducer are used for global state management.
